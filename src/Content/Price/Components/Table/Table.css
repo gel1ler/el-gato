@@ -1,0 +1,14 @@
+.Table {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    grid-gap: 1px;
+    border: 1px #af3939 solid;
+}
+
+.Table div {
+    box-shadow: 0 0 0 0.5px #af3939;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,34 @@
+.UpperArrow {
+    width: 17px;
+    height: 17px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    transform: rotate(-45deg);
+    margin-top: 10%;
+    transition: all 0.4s;
+}
+
+.Circle {
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: fixed;
+    top: 80vh;
+    right: 2%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.Circle:hover {
+    background: black;
+}
+
+.Circle:hover .UpperArrow {
+    margin-top: -1%;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+}

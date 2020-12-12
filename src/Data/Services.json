@@ -1,0 +1,40 @@
+{
+    "services":[
+        {
+            "key":0,
+            "name": "Услуга 1",
+            "description": "Услуга балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":1,
+            "name": "Услуга 2",
+            "description": "Услуга балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":2,
+            "name": "Услуга 3",
+            "description": "Услуга балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":3,
+            "name": "Услуга 4",
+            "description": "Услуга балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":4,
+            "name": "Услуга 5",
+            "description": "Услуга балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":5,
+            "name": "Услуга 6",
+            "description": "Услуга балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        }
+    ]
+}

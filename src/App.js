@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Header from './UI/Header/Header'
+import Aux from './HOC/Auxiliary'
+import Footer from './UI/Footer/Footer'
+import Content from './Content/Content'
 
-function App() {
+const App = () => {
+  const [isScrolled, setScrolled] = useState(false)
+  let flag = false
+  let height = window.outerHeight * 0.5
+  const scroller = () => {
+    if (!flag && window.pageYOffset > height) {
+      flag = true
+      setScrolled(true)
+    }
+    if (flag && window.pageYOffset < height) {
+      flag = false
+      setScrolled(false)
+    }
+  }
+  window.onscroll = scroller
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Aux>
+      <style jsx global>{
+        `
+      body {
+        margin: 0px;
+        overflow-x: hidden;
+      }
+      `
+      }</style>
+      <div className="App">
+        <Header
+          scrolled={isScrolled}
+        />
+        <Content />
+        <Footer />
+      </div>
+    </Aux>
+  )
+  
 }
 
 export default App;

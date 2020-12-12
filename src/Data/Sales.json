@@ -1,0 +1,46 @@
+{
+    "sales":[
+        {
+            "key":0,
+            "name": "Акция1",
+            "description": "Акция балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":1,
+            "name": "Акция2",
+            "description": "Акция балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":2,
+            "name": "Акция3",
+            "description": "Акция балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":3,
+            "name": "Акция4",
+            "description": "Акция балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":4,
+            "name": "Акция5",
+            "description": "Акция балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":5,
+            "name": "Акция6",
+            "description": "Акция балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        },
+        {
+            "key":6,
+            "name": "Акция7",
+            "description": "Акция балалалалал",
+            "photo": "http://wiki.skylark.ru/_media/manual/airmgr_ge_wipes_1.jpg"
+        }
+    ]
+}

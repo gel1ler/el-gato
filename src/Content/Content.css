@@ -1,0 +1,12 @@
+.ContentBox {
+    height: 3000px;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.Content {
+    width: 90%;
+}

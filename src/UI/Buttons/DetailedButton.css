@@ -1,0 +1,29 @@
+.DetailedButton {
+    width: 200px;
+    height: 30px;
+    background: white;
+    border: 1.5px solid #af3939;
+    margin: 0 auto;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.DetailedButton:hover {
+    background: #af3939;
+    color: white;
+}
+
+.ServiceBtn {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.DetailedButtonBox {
+    display: flex;
+    justify-content: center;
+}
+
+.PriceTop {
+    margin-top: 40px;
+}
