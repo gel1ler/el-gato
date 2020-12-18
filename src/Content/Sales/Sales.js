@@ -11,7 +11,6 @@ const Sales = props => {
     const [sales, setSales] = useState(SalesArray)
     const [left, runLeft] = useState(false)
     const [right, runRight] = useState(false)
-    const [className, addClass] = useState()
     const onRight = () => {
         runRight(true)
         for (let i = 0; i < SalesArray.length; i++) {

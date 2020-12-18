@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Title from './Title/Title'
 
-const PriceHeader = () => {
+const PriceHeader = props => {
     return (
         <div className='PriceHeader'>
-            <Title />
+            <Title
+                clicked={props.clicked}
+            />
         </div>
     )
 }

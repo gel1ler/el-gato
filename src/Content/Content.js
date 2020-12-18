@@ -3,6 +3,7 @@ import './Content.css'
 import Sales from './Sales/Sales'
 import Services from './Services/Services'
 import Price from './Price/Price'
+import Masters from './Masters/Masters'
 
 const Content = () => {
     const [show, setShow] = useState(false)
@@ -33,6 +34,7 @@ const Content = () => {
                     show={show}
                     close={close}
                 />
+                <Masters />
             </div>
         </div>
     )

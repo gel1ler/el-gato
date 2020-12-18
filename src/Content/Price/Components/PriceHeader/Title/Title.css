@@ -1,10 +1,16 @@
-.HedaerTitle {
+.HeaderTitle {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+
 }
 
-.HedaerTitle span {
+.HeaderTitle div {
     cursor: pointer;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
 }
+
+

@@ -1,0 +1,8 @@
+.UpperBlock {
+    background: rgb(0, 0, 0);
+    height: 55px;
+    width: 10%;
+    position: absolute;
+    margin-top: -55px;
+    transition: all 0.08s;
+}
