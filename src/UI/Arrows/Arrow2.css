@@ -1,0 +1,27 @@
+.arrow2 {
+    margin: 20px auto;
+}
+
+.arrow2:hover{
+    cursor: pointer;
+}
+
+.arrow2 span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(45deg);
+    animation: arrow2_animate 1s alternate infinite;
+    margin-top: 7ppx;
+}
+
+@keyframes arrow2_animate {
+    0% {
+        transform: rotate(45deg) translate(-10px, -10px);
+    }
+    100% {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+}

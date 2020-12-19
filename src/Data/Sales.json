@@ -1,0 +1,58 @@
+{
+    "sales":[
+        {
+            "key":0,
+            "name": "Акция1",
+            "description": "Акция балалалалал",
+            "photo": "https://dummyimage.com/300/aaa/fff.png"
+        },
+        {
+            "key":1,
+            "name": "Акция2",
+            "description": "Акция балалалалал",
+            "photo": "https://dummyimage.com/300/000/ccc.png"
+        },
+        {
+            "key":2,
+            "name": "Акция3",
+            "description": "Акция балалалалал",
+            "photo": "https://dummyimage.com/300/111/ddd.png"
+        },
+        {
+            "key":3,
+            "name": "Акция4",
+            "description": "Акция балалалалал",
+            "photo": "https://dummyimage.com/300/222/ggg.png"
+        },
+        {
+            "key":4,
+            "name": "Акция5",
+            "description": "Акция балалалалал",
+            "photo": "https://dummyimage.com/300/333/aaa.png"
+        },
+        {
+            "key":5,
+            "name": "Акция6",
+            "description": "Акция балалалалал",
+            "photo": "https://dummyimage.com/300/444/bbb.png"
+        },
+        {
+            "key":6,
+            "name": "Акция7",
+            "description": "Акция балалалалал",
+            "photo": "https://dummyimage.com/300/555/222.png"
+        },
+        {
+            "key":7,
+            "name": "Акция8",
+            "description": "Акция балалалалал",
+            "photo": "https://dummyimage.com/300/666/a30.png"
+        },
+        {
+            "key":8,
+            "name": "Акция8",
+            "description": "Акция балалалалал",
+            "photo": "https://dummyimage.com/300/777/888.png"
+        }
+    ]
+}
